@@ -57,7 +57,7 @@ INSERT ALL
 --Now we've created a table. Let's try some answering some questions that wil help us understand the RANK() window function.
 
 
---Question 1: Select the name,salary,position and department highest paid employee within each department?
+--Question 1: What is the name,salary,position and department of the highest paid employee within each department?
 --procedure:
 
 select employee_name,
@@ -75,7 +75,7 @@ from employees
 )  ranked_employees
 where rank = 1;
 
-rem -> Question 2: What is the name,salary,position and department least paid employee within each department?
+rem -> Question 2: What is the name,salary,position and department of the least paid employee within each department?
 rem -> procedure:
 
 select employee_name,
@@ -93,7 +93,7 @@ from employees
 )  ranked_employees
 where rank = 1;
 
-rem-> Question 3: What is the name,salary,position and department second highest paid employee within each department?
+rem-> Question 3: What is the name,salary,position and department of the second highest paid employee within each department?
 rem-> procedure:
 
 select employee_name,
