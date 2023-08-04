@@ -58,7 +58,7 @@ INSERT ALL
     
  
     
-rem Now we've created a table. Let's try some answering some questions that wil help us understand the RANK() window function.
+rem Now we've created a table. Let's try some answering some questions that wil help us understand the ROW_NUMBER() window function.
 
 --====================================================================================================================
 -- Question 1: What is the name,salary,position and department of the 5th highest paid employee in the company?
